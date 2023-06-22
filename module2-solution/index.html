@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title>module2-solution</title>
+	<style>
+		/* Simple Responsive Framework. */
+        .row {
+            width: 100%;
+        }
+
+        /* Large devices only */
+        @media (min-width: 992px) {
+            .col-lg-4 {
+                width: 33.33%;
+                float: left;
+            }
+        }
+
+        /* Medium devices only */
+        @media (min-width: 768px) and (max-width:991px ) {
+            .col-md-6, .col-md-12 {
+                float: left;
+            }
+            .col-md-6 {
+                width: 50%;
+            }
+            .col-md-12 {
+                width: 100%;
+            }
+        }
+
+        /* Small devices only */
+        @media (max-width: 767px) {
+            .col-sm-12 {
+                width: 100%;
+                float: left;
+            }
+        }
+	</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+	<div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+        	<section>
+        	    <header id="p1">Spinach</header>
+        	    <p>
+        		    Spinach (Spinacia oleracea) is a leafy green flowering plant native to central and Western Asia.It is an annual plant (rarely biennial), growing as tall as 30 cm (1 ft). Spinach may overwinter in temperate regions. Spinach is a green vegetable.
+        	    </p>
+            </section>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+        	<section>
+        	    <header id="p2">Onion</header>
+        	    <p>
+        	        An onion (Allium cepa L., from Latin cepa meaning "onion"), also known as the bulb onion or common onion, is a vegetable that is the most widely cultivated species of the genus Allium.Its close relatives include garlic, scallion, leek, and chive.
+                </p>
+            </section> 
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12">
+        	<section>
+        	    <header id="p3">Carrot</header>
+        	    <p>
+                    The carrot (Daucus carota subsp. sativus) is a root vegetable, typically orange in color, though purple, black, red, white, etc., cultivars exist, all of which are domesticated forms of the wild carrot, Daucus carota, native to Europe and Southwestern Asia.
+                </p>
+            </section>
+        </div>
+    </div>
+
+
+</body>
+</html>
